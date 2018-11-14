@@ -2630,10 +2630,10 @@ table.alt tfoot {
   color: rgba(255, 255, 255, 0.35);
 }
 .wrapper.style2 {
-  background-color: #3a3a39;
+  background-color: #CBCCD0;
 }
 .wrapper.style2-alt {
-  background-color: #202020;
+  background-color: #b0b2b8;
 }
 .wrapper.style3 {
   background-color: #ed5e37;
@@ -3179,6 +3179,24 @@ body.is-preload #sidebar nav ul li {
   height: 300px;
   width: 300px;
   border-radius: 50%;
+}
+
+.wrapper.style2 {
+  color: #000000;
+}
+.wrapper.style2 h2 {
+  color: #00a5b5;
+}
+.wrapper.style2 .button {
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+.wrapper.style2-alt {
+  color: #000000;
+}
+
+section h3 {
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
