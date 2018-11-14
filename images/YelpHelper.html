@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://yelp-helper.herokuapp.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" href="./YelpHelper_files/main.css">
+    <link rel="icon" type="image/png" href="http://yelp-helper.herokuapp.com/favicon.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="./YelpHelper_files/analytics.js"></script><script async="" src="./YelpHelper_files/js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-127753174-1');
+    </script>
+    <title>YelpHelper</title>
+  <style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style></head>
+  <body cz-shortcut-listen="true">
+    <header class="page-header">
+      <a href="https://github.com/JordanYu4/Yelp-Helper" target="_blank" class="app-title">
+        <i class="media-icon-yelp-burst"></i>
+        <h1 class="page-title">YelpHelper</h1>
+      </a>
+      
+      <nav class="nav-links animated fadeIn">
+        <a href="https://github.com/JordanYu4/Yelp-Helper" target="_blank">
+          <i class="media-icon-github"></i> 
+        </a>
+        <a href="https://www.linkedin.com/in/jordan-yu-a7119b80/" target="_blank">
+          <i class="media-icon-linkedin"></i>
+        </a>
+      </nav>
+    </header>
+    <div class="header-spacer"></div>
+
+    <main class="main">
+      <div class="search-bar">
+        <form id="search-form" class="search-form" action="http://yelp-helper.herokuapp.com/search" method="POST">
+          <div class="search-input-fields">
+            <label for="input-term">
+              <span class="search-label">Find</span>
+              <input id="term" type="text" name="term" placeholder="coffee, barbers, tailors...">
+            </label>
+            <label for="input-location">
+              <span class="search-label">Near</span>
+              <input id="location" type="text" name="location" placeholder="current address">
+            </label>
+          </div>
+          <input class="submit-button" type="submit" value="">
+        </form>
+      </div>
+      <div class="data-vis">
+        <div class="search-results-hidden animated fadeIn">
+          <ul id="results-list" class="results-list"></ul>
+        </div>
+        <div class="chart-container-solo" id="chart-container">
+          <h1>Businesses nearby</h1>
+          <div class="canvas-container"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+            <canvas id="yelpChart" style="display: block; width: 876px; height: 438px; cursor: default;" width="876" height="438" class="chartjs-render-monitor"></canvas>
+          </div>
+          <h2>Distance (mi)</h2>
+          <form action="http://yelp-helper.herokuapp.com/update-search" id="search-options-form" class="search-options-form">
+            <label for="value-factors">
+              <h3>Value options:</h3>
+              <div class="search-options-list" id="value-options">
+                <section class="search-option">
+                  <input type="checkbox" id="rating-option" value="ratingOption" checked="checked" disabled="true">
+                  <span>Rating</span>
+                </section>
+                <section class="search-option">
+                  <input type="checkbox" id="price-option" value="priceOption">
+                  <span>Price</span>
+                </section>
+              </div>
+            </label>
+            <label for="business-options">
+              <h3>Business options:</h3>
+              <div class="search-options-list" id="business-options">
+                <section class="search-option">
+                  <input id="disabled-option" type="checkbox" name="business-option" value="openNow" disabled="true">
+                  <span>Open now</span>
+                </section>
+                <section class="search-option">
+                  <input type="checkbox" name="business-option" value="$" checked="checked">
+                  <span>$</span>
+                </section>
+                <section class="search-option">
+                  <input type="checkbox" name="business-option" value="$$" checked="checked">
+                  <span>$$</span>
+                </section>
+                <section class="search-option">
+                  <input type="checkbox" name="business-option" value="$$$" checked="checked">
+                  <span>$$$</span>
+                </section>
+                <section class="search-option">
+                  <input type="checkbox" name="business-option" value="$$$$" checked="checked">
+                  <span>$$$$</span>
+                </section>
+              </div>
+            </label>
+          </form>
+        </div>
+      </div>
+    </main>
+  
+    <script type="application/javascript" src="./YelpHelper_files/bundle.js"></script>
+  
+
+</body></html>
