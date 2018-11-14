@@ -32,19 +32,22 @@
 		}
 
 		&.style1 {
-			background-color: _palette(accent1);
+			background-color: _palette(accent2);
+			// background-color: _palette(accent1);
 		}
-
+		
 		&.style1-alt {
-			background-color: _palette(accent1-alt);
+			background-color: _palette(accent2-alt);
+			// background-color: _palette(accent1-alt);
+			color: _palette(fg-light);
 		}
 
 		&.style2 {
-			background-color: _palette(accent2);
+			background-color: _palette(accent4);
 		}
 
 		&.style2-alt {
-			background-color: _palette(accent2-alt);
+			background-color: _palette(accent4-alt);
 		}
 
 		&.style3 {
