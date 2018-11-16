@@ -2729,7 +2729,7 @@ body.is-ie .wrapper.fullscreen {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #ed5e37;
+  background-color: #39393a;
   cursor: default;
   padding: 1.75em 2em;
 }
