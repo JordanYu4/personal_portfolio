@@ -30,3 +30,13 @@ section h3 {
 .actions {
   display: flex;
 }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6px;
+
+  .image {
+    max-width: 33%;
+  }
+}
