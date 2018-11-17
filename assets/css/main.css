@@ -177,10 +177,10 @@ h1.major {
   padding-bottom: 0.35em;
 }
 h1.major:after {
-  background-image: -moz-linear-gradient(to right, #00a5b5, #ed5e37);
-  background-image: -webkit-linear-gradient(to right, #00a5b5, #ed5e37);
-  background-image: -ms-linear-gradient(to right, #00a5b5, #ed5e37);
-  background-image: linear-gradient(to right, #00a5b5, #ed5e37);
+  background-image: -moz-linear-gradient(to right, #00a5b5, #f2ab56);
+  background-image: -webkit-linear-gradient(to right, #00a5b5, #f2ab56);
+  background-image: -ms-linear-gradient(to right, #00a5b5, #f2ab56);
+  background-image: linear-gradient(to right, #00a5b5, #f2ab56);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -1977,7 +1977,7 @@ input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
-  color: #ed5e37;
+  color: #f2ab56;
   content: "";
 }
 input[type=checkbox]:focus + label:before,
@@ -2058,10 +2058,10 @@ input[type=radio] + label:before {
   color: #202020;
 }
 .wrapper.style3 .icon.major:before {
-  color: #ed5e37;
+  color: #f2ab56;
 }
 .wrapper.style3-alt .icon.major:before {
-  color: #eb4b1f;
+  color: #f09f3f;
 }
 
 /* Image */
@@ -2640,7 +2640,7 @@ table.alt tfoot {
   background-image: linear-gradient(to top right, #7C251F, #F4B76E);
 }
 .wrapper.style3-alt {
-  background-color: #eb4b1f;
+  background-color: #f09f3f;
 }
 .wrapper.fullscreen {
   display: -moz-flex;
@@ -3061,10 +3061,10 @@ body.is-ie #sidebar > .inner {
   background: #091e33;
 }
 #sidebar nav a:after {
-  background-image: -moz-linear-gradient(to right, #00a5b5, #ed5e37);
-  background-image: -webkit-linear-gradient(to right, #00a5b5, #ed5e37);
-  background-image: -ms-linear-gradient(to right, #00a5b5, #ed5e37);
-  background-image: linear-gradient(to right, #00a5b5, #ed5e37);
+  background-image: -moz-linear-gradient(to right, #00a5b5, #f2ab56);
+  background-image: -webkit-linear-gradient(to right, #00a5b5, #f2ab56);
+  background-image: -ms-linear-gradient(to right, #00a5b5, #f2ab56);
+  background-image: linear-gradient(to right, #00a5b5, #f2ab56);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -3140,7 +3140,7 @@ body.is-preload #sidebar nav ul li {
   }
   #sidebar nav a:after {
     background-image: none;
-    background-color: #ed5e37;
+    background-color: #f2ab56;
   }
 }
 @media screen and (max-width: 736px) {
@@ -3198,9 +3198,6 @@ section h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6px;
-}
-.image-grid .image {
-  max-width: 33%;
 }
 
 #three .image {
