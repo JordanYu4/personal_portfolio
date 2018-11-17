@@ -40,3 +40,17 @@ section h3 {
     max-width: 33%;
   }
 }
+
+#three {
+  .image {
+    margin-bottom: 50px;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
