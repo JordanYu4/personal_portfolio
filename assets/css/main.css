@@ -2074,6 +2074,7 @@ input[type=radio] + label:before {
 .image img {
   border-radius: 0.25em;
   display: block;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.6);
 }
 .image.left, .image.right {
   max-width: 40%;
@@ -2630,13 +2631,13 @@ table.alt tfoot {
   color: rgba(255, 255, 255, 0.35);
 }
 .wrapper.style2 {
-  background-color: #CBCCD0;
+  background-image: linear-gradient(to top right, #451B39, #0A122A);
 }
 .wrapper.style2-alt {
   background-color: #b0b2b8;
 }
 .wrapper.style3 {
-  background-color: #ed5e37;
+  background-image: linear-gradient(to top right, #7C251F, #F4B76E);
 }
 .wrapper.style3-alt {
   background-color: #eb4b1f;
@@ -3175,24 +3176,14 @@ body.is-preload #sidebar nav ul li {
   }
 }
 
-.headshot {
+.image .headshot {
   height: 300px;
   width: 300px;
   border-radius: 50%;
 }
 
-.wrapper.style2 {
-  color: #000000;
-}
-.wrapper.style2 h2 {
+.wrapper .style2 h2 {
   color: #00a5b5;
-}
-.wrapper.style2 .button {
-  color: #000000 !important;
-  border-color: #000000 !important;
-}
-.wrapper.style2-alt {
-  color: #000000;
 }
 
 section h3 {
@@ -3201,6 +3192,27 @@ section h3 {
 
 .actions {
   display: flex;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6px;
+}
+.image-grid .image {
+  max-width: 33%;
+}
+
+#three .image {
+  margin-bottom: 50px;
+}
+
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 /*# sourceMappingURL=main.css.map */

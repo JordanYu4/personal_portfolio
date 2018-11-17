@@ -1,25 +1,18 @@
-.headshot {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
+
+.image {
+  .headshot {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
 }
 
 .wrapper {
-  &.style2 {
-    color: #000000;
-    
+
+  .style2 {
     h2 {
       color: _palette(accent1);
     }
-
-    .button {
-      color: #000000 !important;
-      border-color: #000000 !important;
-    }
-  }
-
-  &.style2-alt {
-    color: #000000;
   }
 }
 
@@ -54,3 +47,4 @@ section h3 {
   height: 0;
   clear: both;
 }
+
