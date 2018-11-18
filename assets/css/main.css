@@ -3199,6 +3199,10 @@ section h3 {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6px;
 }
+.image-grid .image {
+  position: relative;
+  overflow: hidden;
+}
 
 #three .image {
   margin-bottom: 50px;
