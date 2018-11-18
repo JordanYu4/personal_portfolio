@@ -3205,9 +3205,6 @@ section h3 {
   grid-template-columns: 60% 40%;
   grid-gap: 20px;
 }
-#three .image {
-  align-content: right;
-}
 #three .image img {
   height: 100%;
   position: absolute;
