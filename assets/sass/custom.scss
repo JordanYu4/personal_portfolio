@@ -27,25 +27,36 @@ section h3 {
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 6px;
+  grid-gap: 10px;
 
-  .image {
-    max-height: 20px;;
-    display: block;
-    position: relative;
-    overflow: hidden;
+  // .image {
+  //   max-height: 20px;
+  //   display: block;
+  //   position: relative;
+  //   overflow: hidden;
 
-    img {
-      object-fit: cover;
-      width: 100%;
-      max-height: 100%;
-    }
-  }
+  //   img {
+  //     object-fit: cover;
+  //     width: 100%;
+  //     max-height: 100%;
+  //   }
+  // }
 }
 
 #three {
+  .inner {
+    display: grid; 
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
+  }
+
   .image {
-    margin-bottom: 50px;
+    align-content: right;
+
+    img { 
+      height: 100%;
+      position: absolute;
+    }
   }
 }
 
@@ -56,4 +67,5 @@ section h3 {
   height: 0;
   clear: both;
 }
+
 

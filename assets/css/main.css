@@ -3197,15 +3197,20 @@ section h3 {
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 6px;
-}
-.image-grid .image {
-  position: relative;
-  overflow: hidden;
+  grid-gap: 10px;
 }
 
+#three .inner {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 20px;
+}
 #three .image {
-  margin-bottom: 50px;
+  align-content: right;
+}
+#three .image img {
+  height: 100%;
+  position: absolute;
 }
 
 .clearfix:after {
