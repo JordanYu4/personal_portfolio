@@ -3228,7 +3228,7 @@ section h3 {
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: 1fr auto;
-  grid-gap: 15px;
+  grid-gap: 25px;
 }
 #three .image {
   grid-row: 1/3;
