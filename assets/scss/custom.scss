@@ -39,6 +39,26 @@ section h3 {
       }
     }
   }
+
+  @media screen and (max-width: 1100px) {
+    grid-template-columns: repeat(2, 1fr);
+    
+    .image {
+      &.fit {
+        height: 30vw;
+      }
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+    grid-template-columns: 1fr;
+
+    .image {
+      &.fit {
+        height: 65vw;
+      }
+    }
+  }
 }
 
 #three {
