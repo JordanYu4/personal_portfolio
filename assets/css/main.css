@@ -107,7 +107,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 /* Type */
-body, input, select, textarea {
+body:not(i), input, select, textarea {
   color: rgba(255, 255, 255, 0.55);
   font-family: Avenir;
   font-size: 16.5pt;
