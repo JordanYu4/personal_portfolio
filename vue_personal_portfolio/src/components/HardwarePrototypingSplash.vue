@@ -14,3 +14,10 @@
 </section>
 
 </template>
+
+<script>
+export default {
+  name: "hardware-prototyping-splash"
+};
+
+</script>

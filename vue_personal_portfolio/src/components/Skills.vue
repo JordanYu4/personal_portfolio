@@ -5,6 +5,7 @@
     <h2>Technologies</h2>
     <p>Constantly sharpening my skills and always eager to learn more.</p>
     <div class="features">
+      <!-- FIXME: replace with v-for and sub-component -->
       <section>
         <!-- <div class="icon-custom-container"> -->
           <i class="icon major fab fa-react"></i>
@@ -119,3 +120,9 @@
 </section>
 
 </template>
+
+<script>
+export default {
+  name: "skills"
+};
+</script>

@@ -10,13 +10,12 @@
       <HardwarePrototypingSplash />
       <Contact />
     </div>
-    
+
     <Footer />
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import Sidebar from './components/Sidebar.vue';
 import Intro from './components/Intro.vue';
 import Projects from './components/Projects.vue';
