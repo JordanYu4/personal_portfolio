@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import 'font-awesome.min.css';
+@import 'brands.min.css';
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -2027,6 +2028,9 @@ input[type=radio] + label:before {
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
+}
+.icon.fa-brand:before {
+  font-family: "Font Awesome 5 Brands";
 }
 .icon > .label {
   display: none;
